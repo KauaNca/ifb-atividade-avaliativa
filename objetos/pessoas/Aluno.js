@@ -14,6 +14,7 @@ class Aluno extends PF{
             this.#matricula = matricula;
             return true;
         }else{
+          console.log('Matrícula errada');
           return false;
         }
       }else{
