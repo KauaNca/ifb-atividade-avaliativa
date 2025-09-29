@@ -36,4 +36,5 @@ const x = alunodao.toJSON();
 alunodao.saveJSON();
 
 console.log(x);
-alunodao.recoveryJSON();
+let y = alunodao.recoveryJSON();
+console.log(y);
