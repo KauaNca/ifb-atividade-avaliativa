@@ -38,3 +38,4 @@ alunodao.saveJSON();
 console.log(x);
 let y = alunodao.recoveryJSON();
 console.log(y);
+console.log(JSON.stringify(x));
